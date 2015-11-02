@@ -6,7 +6,7 @@
 
 .navbar-default{
     height: 60px;
-    background-color: #3c3c3c;
+    background-color: #000000;
     background-image: none;
 }
 
@@ -19,7 +19,7 @@ body{
 }
 
 a:hover{
-    color: #929292;
+    color: #000000;
 }
 
 
