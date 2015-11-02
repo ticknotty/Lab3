@@ -11,6 +11,7 @@
     <input type="password" name="password">
     <br>
 <input type="submit" value="Submit">
+<input type="forgotten" value="Forgotten Password?">
 </form>
 </body>
 </html>
