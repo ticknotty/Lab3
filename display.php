@@ -9,8 +9,10 @@
 $username = $_POST["username"];
 $password = $_POST["password"];
 
+setcookie('access_level', 'standarduser');
+
 if($username == "nicktotty" && $password == "1202663"){
-    echo "Log In Successful";
+    echo "Welcome" . $username . "<br>" . "Log In Successful";
 }
 else{
     echo "Log in failed";
