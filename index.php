@@ -3,7 +3,6 @@
 <head>
 </head>
 <body>
-    color: black;
 <form action="display.php" method="post">
 <label>Username: </label>
     <input type="text" name="username">
