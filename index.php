@@ -31,7 +31,7 @@ if($username == "nicktotty" && $password == "1202663"){
     setcookie('username', $username);
     }
 else if($username == "" && $password == ""){
-    echo "Enter your details plz bud p.s the password is ******";
+    echo "";
 }
 else {
     echo "Log in failed";
