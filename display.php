@@ -7,10 +7,11 @@
  */
 
 $username = $_POST["username"];
+$password = $_POST["password"];
+
 if($username == "Nick" && $password == "abc"){
     echo "Log In Successful";
 }
 else{
     echo "Log in failed";
 }
-$password = $_POST["password"];
