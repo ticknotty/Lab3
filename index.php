@@ -30,6 +30,9 @@ if($username == "nicktotty" && $password == "1202663"){
     setcookie('access_level', 'standarduser');
     setcookie('username', $username);
     }
+else if($username == "" && $password == ""){
+    echo "Enter your details plz bud p.s the password is coke";
+}
 else {
     echo "Log in failed";
 }
