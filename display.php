@@ -14,4 +14,3 @@ else{
     echo "Log in failed";
 }
 $password = $_POST["password"];
-echo "Log In Successful";
