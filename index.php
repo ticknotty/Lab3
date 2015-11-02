@@ -25,7 +25,7 @@ $username = $_POST["username"];
 $password = $_POST["password"];
 
 if($username == "nicktotty" && $password == "1202663"){
-    echo "Welcome" . " " . $username;
+    echo "Welcome " . $username . "<br>" . "Log In Successful";
 
     setcookie('access_level', 'standarduser');
     setcookie('username', $username);
